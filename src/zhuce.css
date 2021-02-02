@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    width: 100%;
+    height: 40px;
+    background: #f2f2f2;
+}
+
+#head .war {
+    width: 840px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#head .war img {
+    cursor: pointer;
+}
+
+#one {
+    width: 100%;
+    height: 113px;
+}
+
+#one .war {
+    width: 840px;
+    height: 113px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#one .box1 {
+    width: 218px;
+    height: 113px;
+    position: relative
+}
+
+#one .box2 {
+    width: 218px;
+    height: 44px;
+    border-radius: 4.7px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 25px;
+    cursor: pointer;
+}
+
+#one .box2 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 20px;
+    float: left;
+}
+
+#one .box2 span {
+    font-size: 12px;
+    color: #7a7a7a7a;
+    position: absolute;
+    top: 13px;
+    left: 50px;
+}
+
+#one .box3 span {
+    font-size: 12px;
+    color: #7a7a7a7a;
+    position: absolute;
+    top: 13px;
+    left: 50px;
+}
+
+#one .box3 img {
+    margin-top: 15px;
+    margin-left: 23px;
+    float: left;
+}
+
+#one .box3 {
+    width: 218px;
+    height: 44px;
+    border-radius: 4.7px;
+    position: absolute;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+#one .box3:hover {
+    background-color: #9dcdff;
+}
+
+#one .war .denglu {
+    width: 155px;
+    height: 55px;
+    margin-left: 165px;
+    position: absolute;
+    left: 188px;
+    top: 52px;
+}
+
+#one .war .hua {
+    font-size: 23px;
+    color: #3c3c3c;
+}
+
+#one .war .wei {
+    font-size: 14px;
+    color: #3c3c3c;
+    margin-left: 13px;
+    float: left;
+}
+
+#one #qu {
+    font-size: 14px;
+    color: #007bff;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#bady {
+    width: 100%;
+    height: 492px;
+
+}
+
+#bady .war {
+    width: 355px;
+    height: 492px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#usname {
+    width: 260px;
+    height: 40px;
+    border: 0px;
+    margin-top: 100px;
+    margin-left: 85px;
+
+    outline: none;
+    background-color: #f2f2f2;
+}
+
+#usname::-webkit-input-placeholder {
+    text-indent: 20px;
+}
+
+#bady .war #usnam {
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    font-size: 17px;
+    float: left;
+    background-color: #f2f2f2;
+    line-height: 35px;
+    margin-left: 15px;
+    text-align: right;
+}
+
+#bady #pass {
+    width: 75px;
+    height: 40px;
+    background-color: #f2f2f2;
+    line-height: 35px;
+    margin-left: 15px;
+    margin-top: 40px;
+    float: left;
+    text-align: right;
+}
+
+#bady .war #passward {
+    width: 254px;
+    height: 40px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    margin-top: 40px;
+    outline: none;
+    border: 0px;
+}
+
+#passward::-webkit-input-placeholder {
+    text-indent: 20px;
+}
+
+#bady #san #yan {
+    width: 75px;
+    height: 40px;
+    background-color: #f2f2f2;
+    line-height: 35px;
+    margin-left: 15px;
+    margin-top: 40px;
+    float: left;
+    text-align: right;
+}
+
+#bady #san #queren {
+    width: 254px;
+    height: 40px;
+    background-color: #f2f2f2;
+    outline: none;
+    border: 0px;
+    margin-top: 40px;
+}
+
+#queren::-webkit-input-placeholder {
+    text-indent: 20px;
+}
+
+#ma {
+    width: 165px;
+    height: 40px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 340px;
+    left: 106px;
+    outline: none;
+    border: 0px;
+    float: left;
+    text-indent: 9px;
+}
+
+#ma::-webkit-input-placeholder {
+    text-indent: 9px;
+}
+
+#bady #yanzhengma {
+    background-color: #000000;
+    width: 71px;
+    height: 40px;
+    top: 340px;
+    left: 271px;
+    position: absolute;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+}
+
+#bady #ma-2 {
+    width: 91px;
+    height: 40px;
+    background-color: #f2f2f2;
+    line-height: 35px;
+    margin-left: 15px;
+    margin-top: 40px;
+    float: left;
+    text-align: right
+}
+#zhuce{
+    width: 250px;
+    height: 40px;
+    background-color: #9dcdff;
+    position: absolute;
+    bottom: 20px;
+    left: 52px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    color: #fdfeff;
+    font-size: 13px;
+}
+#kong{
+    width: 100%;
+    height: 50px;
+}
+#foot{
+    width: 100%;
+    height: 90px;
+    background-color:#f2f2f2;
+}
+#foot .war{
+    width: 975px;
+    height: 90px;
+    margin: 0 auto;
+}
+#foot .o-1{
+    width: 416px;
+    height: 89px;
+    
+    margin: 0 auto;
+}
+#foot .o-2{
+    width: 416px;
+    height: 15px;
+    font-size: 10px;
+    color: #313131;
+    list-style: none;
+    padding-top: 15px;
+}
+#foot .o-2 li{
+    float: left;
+    padding-right: 15px;
+    margin-right: 10px;
+    border-right: 2px solid #cecece;
+    box-sizing: border-box;
+}#foot .o-3{
+    width: 180px;
+    height: 14px;
+    margin-left: 129px;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #aaaaaa;
+}
